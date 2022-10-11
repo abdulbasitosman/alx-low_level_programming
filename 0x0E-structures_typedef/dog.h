@@ -1,29 +1,29 @@
-#ifndef DOG_H                                                                                                                           
-#define DOG_H                                                                                                                           
-                                                                                                                                        
-/**                                                                                                                                     
- * structDog - declares dog struct
- * @name: name of dog
- * @age: the dog age
- * @owner: dog owner
+#ifndef DOG_H
+#define DOG_H
+/**
+ * struct dog - declares dog struct
+ * @name: dog's name
+ * @age: the dog's age
+ * @owner: the dog owner
  */
 
-struct dog {
+struct dog
+{
 	char *name;
 	float age;
 	char *owner;
-}
+};
 
-/* 
- *  *dog_t - new name forthe dog struct
- */                                                                                                                                        
-typedef struct dog dog_t;                                                                                                               
-                                                                                                                                        
-void init_dog(struct dog *d, char *name, float age, char *owner);                                                                       
-void print_dog(struct dog *d);                                                                                                          
-dog_t *new_dog(char *name, float age, char *owner);                                                                                     
-void free_dog(dog_t *d);                                                                                                                
-char *_strcpy(char *dest, char *src);                                                                                                   
-int _strcpy(char *s);                                                                                                                   
+/**
+ * dog_t - new name for struct dog
+ */
+typedef struct dog dog_t;
 
-#endif /*DOG_H*/
+void init_dog(struct dog *d, char *name, float age, char *owner);
+void print_dog(struct dog *d);
+dog_t *new_dog(char *name, float age, char *owner);
+void free_dog(dog_t *d);
+char *_strcpy(char *dest, char *src);
+int _strlen(char *s);
+
+#endif
