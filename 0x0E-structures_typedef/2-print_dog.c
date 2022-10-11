@@ -16,4 +16,6 @@ void print_init(struct dog *d)
 		d->owner"(nil)";
 
 	printf("name: %s\nAge: %lf\nOwner: %s\n", d->name, d->age, d->owner);
+
+	retturn (1);
 }
