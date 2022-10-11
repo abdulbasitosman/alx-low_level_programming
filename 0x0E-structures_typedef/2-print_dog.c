@@ -9,13 +9,11 @@
 void print_init(struct dog *d)
 {
 	if (d == NULL)
-		return;
+		return 1;
 	if (d->name == NULL)
 		d->name = "(nil)";
 	if (d->owner == NULL)
 		d->owner"(nil)";
 
 	printf("name: %s\nAge: %lf\nOwner: %s\n", d->name, d->age, d->owner);
-
-	retturn (1);
 }
