@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include "main.h"
 
-
 /**
  * init_dog - to be used to initiate the dog struct
  * @d: a dog struct
