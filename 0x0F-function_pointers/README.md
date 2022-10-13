@@ -1,2 +1,2 @@
-# C - Function pointers
-C - Function pointers project
+# Function pointers
+This is a function pointers project
