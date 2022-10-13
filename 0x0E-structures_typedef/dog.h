@@ -1,10 +1,10 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- * struct dog - declares dog struct
- * @name: dog's name
- * @age: the dog's age
- * @owner: the dog owner
+ * struct dog - is used to declear dog structure
+ * @name: the name
+ * @age: the age
+ * @owner: the owner of the dog
  */
 
 struct dog
@@ -15,9 +15,10 @@ struct dog
 };
 
 /**
- * dog_t - new name for struct dog
+ * dog_t - new name for struck dog
  */
 typedef struct dog dog_t;
+
 
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);

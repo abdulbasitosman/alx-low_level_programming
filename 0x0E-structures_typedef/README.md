@@ -1,1 +1,1 @@
-Structs and typedef project
+structures and typedef project
