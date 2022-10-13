@@ -1,18 +1,13 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character c to stdout
- *
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * print_name -prints a name
+ * @name: name to print
+ * @f: The character to prit
  */
-
-int _putchar(char c)
-
+void print_name(charr *name, void (*f)(char *))
 {
-
-		return (write(1, &c, 1));
-
+	if (!name || !f)
+		return;
+	f(name);
 }
