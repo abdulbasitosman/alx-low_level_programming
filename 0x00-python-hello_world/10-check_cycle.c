@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "lists.h"
+#include "list.h"
 /**
  * check_cycle - fuction to chech if a singly linked list has a cycle int it
  * @list: pointer to the begining of the node
