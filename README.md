@@ -1,2 +1,2 @@
 # alx-low_level_programming
-my low level programming 
+This repo shall contain all projects that are related to low level programming
